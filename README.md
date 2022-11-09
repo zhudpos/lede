@@ -1,15 +1,6 @@
-# 欢迎来到 Lean 的 LEDE 源码仓库
+# 欢迎来到 zhudpos 的 LEDE 源码仓库
 
 如何编译自己需要的 LEDE 固件 [How to build your LEDE firmware](./README_EN.md)
-
-## 官方讨论群
-如有技术问题需要讨论或者交流，欢迎加入以下群：
-1. QQ 讨论群：  Op固件技术研究群-2 号码 618992230 ,加群链接：[点击加入](https://jq.qq.com/?_wv=1027&k=Imt01vqy "Op固件技术研究群-2")
-Op固件技术研究群 ,号码 891659613 ，加群链接：[点击加入](https://jq.qq.com/?_wv=1027&k=XL8SK5aC "Op固件技术研究群")
-2. TG 讨论群： OP 编译官方大群 ，加群链接：[点击加入](https://t.me/JhKgAA6Hx1 "OP 编译官方大群")
-3. Rockchip RK3568 预编译固件发布 Release 下载更新地址 (包括 H68K )：<https://github.com/zhudpos/lede/releases/tag/20220716>
-
-<img src="https://github.com/zhudpos/lede/blob/master/doc/h68k.jpg?raw=true" width=600  />
 
 ## 注意
 
@@ -37,15 +28,7 @@ Op固件技术研究群 ,号码 891659613 ，加群链接：[点击加入](https
 3. 下载源代码，更新 feeds 并选择配置
 
    ```bash
-   git clone https://github.com/
-   
-   
-   
-   
-   
-   
-   
-   /lede
+   git clone https://github.com/zhudpos/lede
    cd lede
    ./scripts/feeds update -a
    ./scripts/feeds install -a
