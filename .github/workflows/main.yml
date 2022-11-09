@@ -91,21 +91,18 @@ jobs:
         with:
           name: OpenWrt_buildinfo
           path: ./artifact/buildinfo/
-          node-version: '16'
 
       - name: Deliver package
         uses: actions/upload-artifact@v3
         with:
           name: OpenWrt_package
           path: ./artifact/package/
-          node-version: '16'
 
       - name: Deliver firmware
         uses: actions/upload-artifact@v3
         with:
           name: OpenWrt_firmware
           path: ./bin/targets/
-          node-version: '16'
   
 
       - name: Upload release asset
