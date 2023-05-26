@@ -1345,7 +1345,7 @@ define Device/oraybox_x3a
   IMAGE_SIZE := 15360k
   DEVICE_VENDOR := OrayBox
   DEVICE_MODEL := X3A
-  DEVICE_PACKAGES := -luci-newapi -wpad-openssl kmod-mt7615d_dbdc wireless-tools
+  DEVICE_PACKAGES := kmod-mt7615-firmware
 endef
 TARGET_DEVICES += oraybox_x3a
 
